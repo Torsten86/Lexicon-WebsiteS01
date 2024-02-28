@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .cv-container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #969090;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex; /* Make the container a flex container */
+    }
+
+    .left-column {
+      flex: 1; /* Equal flex distribution for both columns */
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: #333; /* Dark grey color */
+      color: #fff; /* Text color */
+    }
+
+    .right-column {
+      flex: 2; /* Equal flex distribution for both columns */
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    .profile {
+      display: flex;
+      margin-top: 20px;
+    }
+
+    .profile img {
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .profile-info {
+      flex-grow: 1;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      margin: 0;
+    }
+
+    .image-box {
+      text-align: center;
+      max-width: 200px;
+      margin: 0 auto;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv-container">
+    <!-- Left Column -->
+    <div class="left-column">
+      <!-- Image Box -->
+      <div class="image-box">
+        <img src="https://img.freepik.com/free-vector/flat-design-yellow-rubber-duck-illustrated_23-2148281370.jpg?w=826&t=st=1709124476~exp=1709125076~hmac=cf1468f4103bef796a4f3f8a58799e691f9cad839a3eb20c8e3839fca9e24a5b" alt="Your Image">
+      </div>
+
+      <!-- Left Text Box -->
+      <h2>About me</h2>
+      <p>Lorem ipsum example</p>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right-column">
+      <div class="header">
+        <h1>Janne doe</h1>
+        <p>Web Developer</p>
+      </div>
+
+      <div class="profile">
+        <img src="path/to/your/profile-image.jpg" alt="Your Profile">
+        <div class="profile-info">
+          <p>Email: Janne.doe@example.com</p>
+          <p>Phone: (123) 456-7890</p>
+          <p>LinkedIn: linkedin.com/in/Jannedoe</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Education</h2>
+        <p>University Name - Bachelor's in Computer Science - Graduation Year</p>
+      </div>
+
+      <div class="section">
+        <h2>Experience</h2>
+        <p>Job Title - Company Name - Duration</p>
+        <p>Responsibilities and achievements...</p>
+      </div>
+
+      <div class="section"> 
+        <h2>References</h2>
+        <p>Mrs.Jane Doe</p>
+        <p>Mr.John Doe</p>
+      </div>
+
+      <!-- Add more sections for skills, projects, etc. -->
+    </div>
+  </div>
+
+</body>
+</html>
